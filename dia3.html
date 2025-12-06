@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>formulário dia 3</title>
+</head>
+<body>
+  <h3>Formulário</h3>
+  <form action="#" method="post" accept-charset="utf-8">
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br><br>
+    
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    
+    <label>Senha:</label><br>
+    <input type="password" name="senha" required><br><br>
+    
+    <label>Idade:</label><br>
+    <input type="number" name="idade" min="1" max="120"><br><br>
+
+    <label>Gênero:</label><br>
+    <label><input type="radio" name="sexo" value="M">Masculino</label>
+    <label><input type="radio" name="sexo" value="F">Feminino </label><br><br>
+    
+    <label>Estado:</label>
+    <select name="estado">
+      <option value="SP">SP</option>
+      <option value="RJ">RJ</option>
+      <option value="MG">MG</option>
+    </select><br><br>
+    
+    <label>Mensagem:</label>
+    <textarea name="msg" rows="4"></textarea><br><br>
+    
+    <label>
+      <input type="checkbox" name="termos" required>Concordo com os termos
+    </label><br>
+    
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
