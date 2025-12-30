@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../arquivos/fundo.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#linha{
+  display: flex;
+  text-align: center;
+}
+#login{
+  border: 3px solid rgb(50, green, blue);
+  min-height: 30vh;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 5vh;
+  background: black;
+  color: #727273;
+  box-shadow: 
+ inset 0 0 8px rgba(0, 255, 255, 0.7),
+  0 0 16px rgba(0, 255, 255, 0.4);
+  margin: 5vh;
+}
+.ti{
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  transition: color 0.3s ease;
+}
+a:hover{
+  color: green;
+}
+button{
+  display: block;
+  margin: 20px auto;
+  padding: 1vh 6vh;
+  border-radius: 2vh;
+  border: 5px solid dodgerblue ;
+  background-color: darkblue;
+  color: ghostwhite;
+}
+#dds {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2vh;
+  background-color: #9fd9f0;
+  border: 2px solid transparent;
+  padding: 6px 12px;
+  font-size: 1.5vh;
+  transition: 
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+#dds:focus {
+  outline: none;
+  background-color: #bfe9f7;
+  border-color: #00bcd4;
+  box-shadow: 
+    0 0 0 3px rgba(0, 188, 212, 0.35);
+}
