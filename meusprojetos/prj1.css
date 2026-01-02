@@ -44,10 +44,6 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: green;
-}
-
 button {
   display: block;
   margin: 20px auto;
