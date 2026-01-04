@@ -5,37 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>registro</title>
+  <link rel="stylesheet" href="registro.css">
 </head>
 
 <body>
-  <h1>Registre-se</h1>
-  <form>
-    <label>
-    nome:<br>
-    <input type="text" placeholder="insira seu nome." name="nome" required>
-    </label><br><br>
-    <label>
-    idade:<br>
-    <input type="number" placeholder="insira sua idade." name="idade" required>
-    </label><br><br>
+  <div id="login">
+    <h1>Registre-se</h1>
+    <div>
+      <form>
         <label>
-    email:<br>
-    <input type="email" placeholder="insira seu melhor email." name="email" required>
-    </label><br><br>
-    <label>
-    crie uma senha:<br>
-    <input type="password" placeholder=" insira sua senha aqui." name="senha" required>
-    </label><br><br>
-    <label>
-    repita sua senha:<br>
-    <input type="password" placeholder=" insira sua senha aqui." name="SenhaR" required>
-    </label><br><br>
-    <button type="submit">
-      enviar
-    </button>
+          <span>nome</span><br>
+          <input type="text" placeholder="insira seu nome." name="nome" class="dds" required>
+        </label><br><br>
+        <label>
+          <span>email</span><br>
+          <input type="email" placeholder="insira seu melhor email." name="email" class="dds" required>
+        </label><br><br>
+        <label>
+          <span>crie uma senha</span><br>
+          <input type="password" placeholder=" insira sua senha aqui." name="senha" class="dds" required>
+        </label><br><br>
+        <label>
+          <span>repita sua senha</span><br>
+          <input type="password" placeholder=" insira sua senha aqui." name="SenhaR" class="dds" required>
+        </label><br><br>
+        <label class="check">
+        <input type="checkbox" required>
+        <p>
+        Confirmo que li e aceito os 
+        <a href="../README.md" class="TeC">Termos e condições</a>
+        </p>
+        </label><br><br>
+        
+        <button type="submit" formaction="../meusprojetos/prj1.html">
+          enviar
+        </button>
+    </div>
     
-    
-  </form>
+    </form>
+  </div>
 </body>
 
 </html>
