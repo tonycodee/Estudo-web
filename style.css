@@ -19,12 +19,12 @@ body {
   color: white;
 }
 
-/* HEADER fica no fluxo normal */
+
 header {
   width: 100%;
 }
 
-/* MAIN ocupa todo o espaço restante */
+
 main {
   flex: 1;
 
@@ -35,7 +35,6 @@ main {
   padding: 20px;
 }
 
-/* CONTAINER CENTRAL */
 #login {
   width: 100%;
   max-width: 1200px;
